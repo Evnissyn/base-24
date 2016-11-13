@@ -1,0 +1,23 @@
+
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+span {
+	width: 200px;
+	display: inline-block;
+}
+
+.calc {
+	width: 150px
+}
+
+.small {
+	width: 120px;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+}
