@@ -8,6 +8,7 @@ import store from './store'
 
 import defaultDisplay from './defaultDisplay'
 import ConverterContainer from './ConverterContainer'
+import ConvertDecimalContainer from './ConvertDecimalContainer'
 
 ReactDOM.render(
 	<Provider store={store}>
@@ -15,6 +16,7 @@ ReactDOM.render(
 			<Route path="/">
 				<IndexRoute component={defaultDisplay} />
 				<Route path="converter" component={ConverterContainer} />
+				<Route path="decimalConverter" component={ConvertDecimalContainer} />
 			</Route>
 		</Router>
 	</Provider>,

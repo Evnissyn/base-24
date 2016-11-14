@@ -3,7 +3,13 @@ import Converter from './Converter';
 import {reset} from './action-creators'
 
 import {userChoseSymbol} from './action-creators'
-const mapStateToProps = ({selectedLotis, arrayLotis}) => ({selectedLotis, arrayLotis});
+
+const mapStateToProps = ({selectedLotis, arrayLotis, decValue}) => ({
+	selectedLotis, 
+	arrayLotis,
+	decValue
+})
+;
 const mapDispatchToProps = (dispatch) => ({
 	symbolClicked (symbol) {
 		console.log("user clicked symbol: ",symbol)
