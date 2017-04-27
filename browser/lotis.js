@@ -54,7 +54,8 @@ Lotis._enum = [
 	"UTEI",
 	"SHETO",
 	"SAMA",
-	"VIMUKU"
+	"VIMUKU",
+	"YUGU"
 ]
 
 Lotis._lotisArray = (value) => {

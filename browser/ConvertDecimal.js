@@ -31,8 +31,8 @@ export default class Converter extends Component{
             this.props.arrayLotis.map((element,index) => {
               let str = `<svg viewBox= \"0 0 300 500\" class= \"show\" > <image x = \"0\" y=\"0\" width=\"300\" height=\"500\" xlink:href= \"symbols/${element}.svg\" /> </svg>`
               return (
-                <span key={index} className="small lotis">
-                <figure dangerouslySetInnerHTML={{__html: str}} />
+                <span key={index} className="lotis">
+                <figure className="small" dangerouslySetInnerHTML={{__html: str}} />
                 <p>({element})</p>
                 </span>
               )

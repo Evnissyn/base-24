@@ -73,7 +73,8 @@ export const lotis_enum = [
 	"UTEI",
 	"SHETO",
 	"SAMA",
-	"VIMUKU"
+	"VIMUKU",
+	"YUGU"
 ]
 export const lotis_meaning = [
 	"union",
@@ -99,5 +100,6 @@ export const lotis_meaning = [
 	"wake",
 	"longevity",
 	"guidance",
-	"release"
+	"release",
+	"union"
 ]

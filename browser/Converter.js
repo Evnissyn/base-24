@@ -18,8 +18,8 @@ export default class Converter extends Component{
           nums.map((element) => {
             let str = `<svg viewBox= \"0 0 300 500\" class= \"show\" > <image x = \"0\" y=\"0\" width=\"300\" height=\"500\" xlink:href= \"symbols/${element}.svg\" /> </svg>`
             return (
-              <span key={element} className="calc lotis">
-              <figure dangerouslySetInnerHTML={{__html: str}} onClick={()=>this.props.symbolClicked(element)}/>
+              <span key={element} className="lotis">
+              <figure className= "calc" dangerouslySetInnerHTML={{__html: str}} onClick={()=>this.props.symbolClicked(element)}/>
               <p>({element})</p>
               </span>
             )

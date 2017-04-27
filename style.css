@@ -5,16 +5,20 @@ h1 {
 }
 
 span {
-	width: 200px;
+	/*width: 150px;*/
 	display: inline-block;
 }
 
-.calc {
-	width: 150px
+figure {
+	width: 50px
 }
 
-.small {
-	width: 150px;
+figure.calc {
+	width: 50px
+}
+
+figure.small {
+	width: 50px;
 }
 
 p {
